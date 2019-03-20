@@ -1,3 +1,7 @@
 message(STATUS "Task 3")
 
-add_subdirectory(lalykin_o_radix_batcher_task3_tbb)
+SUBDIRLIST(subdirs ${CMAKE_CURRENT_SOURCE_DIR})
+
+foreach(subd ${subdirs})
+  add_subdirectory(${subd})
+endforeach()
