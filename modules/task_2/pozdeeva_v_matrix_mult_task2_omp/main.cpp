@@ -76,7 +76,7 @@ int main(int argc, char** argv) {
     std::cout << "Time usual is " << finishTime - startTime << std::endl;
     // PrintMatrix(C, N);
     startTime = omp_get_wtime();
-    Foxs(A, B, C, N, q);
+    Foxs(A, B, C1, N, q);
     finishTime = omp_get_wtime();
     std::cout <<"Time consistent with Fox algorithm is "<< finishTime - startTime << std::endl;
     std::cout << "Matrices multiplied by usual and consistent Fox algorithm - ";
