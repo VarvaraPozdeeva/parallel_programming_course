@@ -1,4 +1,4 @@
-set(PROJECT_NAME "ponomarev_a_linear_filter_omp")
+set(PROJECT_NAME "gorelova_k_multi_mat_ccs_omp")
 
 if ( USE_OMP )
     project( ${PROJECT_NAME} )

@@ -1,4 +1,4 @@
-set(PROJECT_NAME "ponomarev_a_linear_filter_omp")
+set(PROJECT_NAME "tolstikov_m_radixsort_double_merge_task2_omp")
 
 if ( USE_OMP )
     project( ${PROJECT_NAME} )
