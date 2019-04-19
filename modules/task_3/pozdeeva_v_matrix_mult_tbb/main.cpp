@@ -1,6 +1,6 @@
 // Copyright 2019 Pozdeeva Varvara
 
-#include <tbb\tbb.h>
+#include <tbb/tbb.h>
 
 #include <iostream>
 #include <ctime>
